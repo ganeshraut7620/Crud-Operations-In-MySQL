@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <div class="container p-5">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong border-primary" style="border-radius: 1rem; ">
+                <div class="card-body p-5 text-center">
+      
+                  <h3 class="mb-5">Login Form</h3>
+                  <form action="/" class="was-validated">
+                    <div class="form-group">
+                        
+                      <input type="text" class="form-control fa-fa-user" id="uname" placeholder="Email Address" name="uname" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback text-left">Email can't be blank</div>
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback text-left">Password can't be blank </div>
+                    </div>
+                    <div class="form-group mt-2">
+                      <div>
+                        <p class="text-left">Forgot Pasword</p>
+                      </div>
+                    </div>
+                     <div class="form-group">
+                        <button type="submit" class="btn btn-block btn-primary">Login</button>
+                     </div>
+                    <div class="mt-5">
+                        <p class="text-left">Not yet Member? <a href="#">Singup Now</a></p>
+                    </div>
+                  </form>
+      
+            </div>
+            </div>
+          </div>
+        </div>
+    </section>
+</body>
+
+</html>
